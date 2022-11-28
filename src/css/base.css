@@ -15,10 +15,10 @@ body {
 	--color-heading-main: #000;
 	--color-heading-main-alt: #fff;
 	--color-heading-sub: #374b41;
-	--color-menu: #7ec59d;
-	--color-menu-hover: #128b47;
-	--color-bg: #4f6c5e;
-	--color-bg-menu: #000;
+	--color-menu: rgb(167, 219, 235);
+	--color-menu-hover: rgb(70, 197, 236);
+	--color-bg: rgb(167, 219, 235);
+	--color-bg-menu: #FFFF;
 	--color-link: #000;
 	--color-link-alt: #3e4843;
 	--color-link-hover: #000;
@@ -282,14 +282,14 @@ main {
 .content__title {
 	font-weight: 400;
 	text-align: center;
-	font-size: 7.5vw;
+	font-size: 3vw;
 	line-height: 0.75;
 	cursor: default;
 	margin: 10vh 0 0 0;
 }
 
 .content__title-main {
-	font-size: 23vw;
+	font-size: 15vw;
     display: block;
     will-change: opacity, transform;
 }
